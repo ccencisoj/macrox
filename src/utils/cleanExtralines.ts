@@ -1,4 +1,4 @@
-export const deleteExtraLines = (content: string): string => {
+export const cleanExtraLines = (content: string): string => {
   const contentLines = content.split("\n");
 
   content = contentLines.filter((line, index)=> {

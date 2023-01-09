@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createFile = void 0;
 const path_1 = __importDefault(require("path"));
 const fs_extra_1 = __importDefault(require("fs-extra"));
-const cleanContent_1 = require("./cleanContent");
+const cleanContent_1 = require("./utils/cleanContent");
 const createFile = (filePath, content) => {
     fs_extra_1.default.removeSync(filePath);
     fs_extra_1.default.mkdirpSync(path_1.default.dirname(filePath));

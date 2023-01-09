@@ -1,6 +1,6 @@
 import { getMinIndentation } from "./getMinIndentation";
 
-export const deleteExtraIndents = (content: string): string => {
+export const cleanExtraIndents = (content: string): string => {
   // Obtener el minimo numero de espacios extras al principio de cada linea
   const minIndentation = getMinIndentation(content);
 

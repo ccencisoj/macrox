@@ -1,8 +1,9 @@
 {
   "name": "macrox",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "",
   "main": "dist/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc --build"
   },

@@ -1,10 +1,11 @@
+import { removeDir } from "./removeDir";
 import { existsFile } from "./existsFile";
 import { createFile } from "./createFile";
-import { deleteFile } from "./deleteFile";
-import { toSpacedValue } from "./toSpacedValue";
+import { removeFile } from "./removeFile";
+import { toSpacedValue } from "./utils/toSpacedValue";
 import { executeCommand } from "./executeCommand";
-import { toCamelCaseValue } from "./toCamelCaseValue";
-import { toCapitalizedValue } from "./toCapitalizedValue";
+import { toCamelCaseValue } from "./utils/toCamelCaseValue";
+import { toCapitalizedValue } from "./utils/toCapitalizedValue";
 
 const value = process.argv[2];
 const spacedValue = toSpacedValue(value);
@@ -16,8 +17,9 @@ export {
   spacedValue,
   camelCaseValue,
   capitalizedValue,
+  removeDir,
   createFile,
-  deleteFile,
+  removeFile,
   existsFile,
   executeCommand
 }

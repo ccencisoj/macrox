@@ -1,5 +1,5 @@
 import fs from "fs-extra";
 
-export const deleteFile = (filePath: string)=> {
+export const removeFile = (filePath: string): void => {
   fs.removeSync(filePath);
 }
