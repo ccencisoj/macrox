@@ -1,10 +1,10 @@
 # Macrox
 
-Macrox es una herramienta que te ofrece todo lo que necesitas para crear tus propias macros de codigo
+Macrox es una herramienta que te ofrece todo lo que necesitas para crear tus propias macros de codigo. 
 
 ## ¿Que son las macros de codigo?
 
-Una macro de codigo es un script que continene una serie de instrucciones que tienen como objetivo automatizar tareas específicas o para crear funcionalidades personalizadas en un programa.
+Una macro de codigo es un script que continene una serie de instrucciones que tienen como objetivo automatizar tareas específicas o para crear funcionalidades personalizadas en un programa. 
 
 ## ¿Porque usar Macrox?
 
