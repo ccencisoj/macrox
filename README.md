@@ -8,7 +8,7 @@ Una macro de codigo es un script que continene una serie de instrucciones que ti
 
 ## ¿Porque usar Macrox?
 
-```shell
+```typescript
 import { value, camelCaseValue, capitalizedValue, createFile, removeFile, ... } from "macrox";
 ```
 
