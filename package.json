@@ -1,6 +1,6 @@
 {
   "name": "macrox",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "",
   "main": "dist/index.js",
   "types": "src/index.d.ts",

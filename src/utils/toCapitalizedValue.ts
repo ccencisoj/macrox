@@ -1,5 +1,6 @@
-import lodash from "lodash";
+import { toCamelCaseValue } from "./toCamelCaseValue";
 
 export const toCapitalizedValue = (value: string)=> {
-  return lodash.startCase(lodash.camelCase(value)).replace(" ", "");
+  const camelCaseValue = toCamelCaseValue(value);
+  return camelCaseValue.charAt(0).toUpperCase() + camelCaseValue.slice(1);
 }

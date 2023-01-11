@@ -1,11 +1,9 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.toCapitalizedValue = void 0;
-const lodash_1 = __importDefault(require("lodash"));
+const toCamelCaseValue_1 = require("./toCamelCaseValue");
 const toCapitalizedValue = (value) => {
-    return lodash_1.default.startCase(lodash_1.default.camelCase(value)).replace(" ", "");
+    const camelCaseValue = (0, toCamelCaseValue_1.toCamelCaseValue)(value);
+    return camelCaseValue.charAt(0).toUpperCase() + camelCaseValue.slice(1);
 };
 exports.toCapitalizedValue = toCapitalizedValue;
